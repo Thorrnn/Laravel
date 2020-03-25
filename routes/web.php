@@ -11,19 +11,14 @@
 |
 */
 
-
+/*
 Route::get('/', function (){
-   return view('index');
-});
-
-Route::get('view', function (){
-    return view('view');
-});
-
-Route::get('profile/{name?}', function ($name = 'unknown'){
-    return 'Name '.$name."<br> Маршрут с необязательными параметрами";
-});
+   return view('default');
+});*/
 
 
+Route::get('/list','ListController@index');
+Route::get('/about','AboutController@index');
+Route::get('/','MainController@index');
 
-Route::get('news/{id}', 'NewsController@pushNews');
+
