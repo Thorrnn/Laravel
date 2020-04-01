@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateNewsTable extends Migration
+class CreateContestsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,13 @@ class CreateNewsTable extends Migration
      */
     public function up()
     {
-        Schema::create('news', function (Blueprint $table) {
+        Schema::create('contests', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('title');
-
-            $table->text('body')->nullable();
-            $table->string('author')->nullable();
+            $table->string('name');
+            $table->enum('status',['finished', 'expectation', 'going', 'canceled']);
+            $table->dateTime('date_start');
+            $table->dateTime('date_end');
+            $table->text('rules');
             $table->timestamps();
         });
     }
@@ -30,6 +31,6 @@ class CreateNewsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('news');
+        Schema::dropIfExists('contests');
     }
 }

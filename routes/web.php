@@ -17,8 +17,13 @@ Route::get('/', function (){
 });*/
 
 
+use App\Http\Controllers\Controller;
+
 Route::get('/list','ListController@index');
 Route::get('/about','AboutController@index');
+//Route::get('/article','ArticleController@get');
+Route::get('/grades','InsertGradesController@insert');
 Route::get('/','MainController@index');
+Route::resource('articles','ArticleController');
 
 
