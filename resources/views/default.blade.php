@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,17 +9,19 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/jumbotron/">
 
     <style>
-
-
         @media (min-width: 768px) {
             .bd-placeholder-img-lg {
                 font-size: 3.5rem;
             }
         }
+        body{
+            margin-top: 70px;
+        }
     </style>
 
 </head>
 <body>
+
 @include('layouts.blocks.nav.index')
 @yield('content')
 

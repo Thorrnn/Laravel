@@ -1,12 +1,16 @@
 <?php
 
 return [
-
-
     'navList' => [
-        'home' => 'ГЛАВНАЯ',
-        'list' => 'СПИСОК',
-        'about' => 'О ПРОЕКТЕ',
+        'home' => 'Главная',
+        'list' => 'Список',
+        'about' => 'О проекте',
+        'login' => 'Войти',
+        'register' =>'Регистрация',
+        'name' =>'MedicLab',
+        'logout' => 'Выйти',
+        'profile' => 'Профиль',
+        'articles' => 'Статьи'
     ],
 
 ];
