@@ -9,12 +9,46 @@ use Illuminate\Support\Facades\DB;
 
 class ProfileController extends Controller
 {
-    public function index()
+    public function profile()
     {
         if(Auth::check())
         {
             $user = Auth::user();
             return view('profile.index', compact('user'));
+        }
+        else{
+            return redirect('login');
+        }
+    }
+    public function articles()
+    {
+        if(Auth::check())
+        {
+             $user_id = Auth::id();
+
+            $articles = DB::table('articles')
+                ->select('articles.title', 'articles.annotation', 'articles.created_at', 'articles.section','articles.id', 'articles.status')
+                ->where('articles.user_id','=',$user_id)
+                ->get();
+            return view('profile.articles', compact('articles'));
+
+        }
+        else{
+            return redirect('login');
+        }
+    }
+    public function grades()
+    {
+        if(Auth::check())
+        {
+            $user_id = Auth::id();
+
+            $articles = DB::table('grades')
+                ->select('articles.title', 'articles.annotation', 'articles.created_at', 'articles.section','articles.id', 'articles.status')
+                ->where('articles.user_id','=',$user_id)
+                ->get();
+            return view('profile.articles', compact('articles'));
+
         }
         else{
             return redirect('login');

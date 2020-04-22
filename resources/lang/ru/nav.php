@@ -10,7 +10,12 @@ return [
         'name' =>'MedicLab',
         'logout' => 'Выйти',
         'profile' => 'Профиль',
-        'articles' => 'Статьи'
+        'users' => 'Пользователи',
+        'articles' => 'Статьи',
+        'grades' => 'Оценки',
+        'rate' => 'Рейтинг',
+        'my_grades' => 'Мои оценки',
+        'my_articles' => 'Мои статьи'
     ],
 
 ];

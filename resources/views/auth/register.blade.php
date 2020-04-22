@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('default')
 
 @section('content')
 <div class="container">
@@ -47,9 +47,10 @@
                                 <input list="role" class="form-control @error('role') is-invalid @enderror"
                                        name="role" value="{{ old('role') }}" required autocomplete="role" autofocus>
                                 <datalist id="role">
-                                    <option value="jury" >
-                                    <option value="competitor">
+                                    <option value="jury">Член жюри
+                                    <option value="competitor">Конкурсант
                                 </datalist>
+
                                 @error('role')
                                 <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>

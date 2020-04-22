@@ -13,16 +13,15 @@ class GradesTableSeeder extends Seeder
     public function run()
     {
         DB::table('grades')->insert([
-            'users_jury_id' => '4',
+            'jury_id' => '3',
             'article_id'=>'1',
-            'novelty' => '1',
-            'statement' => '1',
-            'relevance' => '1',
-            'fullness' => '1',
+            'novelty' => '50',
+            'statement' => '50',
+            'relevance' => '50',
+            'fullness' => '50',
+            'aver_rating' => '50',
             'created_at' => Date('Y-m-d H:i:s')
         ]);
 
-        $user = factory(Users::class, 3)->create();
-        dd($user);
     }
 }

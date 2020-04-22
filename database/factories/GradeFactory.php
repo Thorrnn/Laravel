@@ -9,11 +9,12 @@ use Illuminate\Support\Str;
 $factory->define(Model::class, function (Faker $faker) {
     return [
         'article_id' => rand(1,2),
-        'users_jury_id' => rand(1,2),
-        'novelty' => rand(1,5),
-        'statement' => rand(1,5),
-        'relevance' => rand(1,5),
-        'fullness' => rand(1,5),
+        'jury_id' => rand(1,2),
+        'novelty' => rand(1,100),
+        'statement' => rand(1,100),
+        'relevance' => rand(1,100),
+        'fullness' => rand(1,100),
+        'aver_rating' => rand(1,100),
         'created_at' => now()
     ];
 });

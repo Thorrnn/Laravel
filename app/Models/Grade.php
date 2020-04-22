@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Grade extends Model
 {
-    protected $fillable =['novelty', 'statement', 'relevance', 'fullness'];
+    protected $fillable =['novelty', 'statement', 'relevance', 'fullness','aver_rating', 'jury_id', 'article_id'];
 
     public function user()
     {

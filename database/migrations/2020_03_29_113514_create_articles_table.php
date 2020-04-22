@@ -16,13 +16,11 @@ class CreateArticlesTable extends Migration
         Schema::create('articles', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->unsignedBigInteger('user_id');
-            $table->unsignedBigInteger('contest_id');
             $table->string('title');
             $table->longText('body');
             $table->string('section');
             $table->enum('status', ['checked', 'ban', 'on_check']);
             $table->text('annotation');
-            $table->float('over_rating');
             $table->timestamps();
         });
 
@@ -34,13 +32,6 @@ class CreateArticlesTable extends Migration
 
          });
 
-        Schema::table('articles', function(Blueprint $table){
-            $table->foreign('contest_id')
-                ->references('id')
-                ->on('contests')
-                ->onDelete('cascade');
-
-        });
     }
 
     /**

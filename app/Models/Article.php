@@ -6,8 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Article extends Model
 {
-    protected $fillable = ['title', 'body', 'section', 'annotation', 'user_id'];
-    protected $guarded = ['status', 'over_rating'];
+    protected $fillable = ['title', 'body', 'section', 'annotation', 'user_id', 'status'];
     protected $attributes = [
         'status'=> 'on_check'
     ];

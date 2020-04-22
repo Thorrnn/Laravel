@@ -8,12 +8,12 @@ use Illuminate\Support\Str;
 
 $factory->define(Model::class, function (Faker $faker) {
     return [
+        'user_id' => rand(1,2),
         'title' => $faker->title,
         'body' => $faker->text,
         'section' => $faker->text,
         'status' => $faker->randomElement(['checked', 'ban', 'on_check']),
-        'password' => $faker->password,
-        'remember_token' => Str::random(10),
+        'annotation' => $faker->text,
         'created_at' => now()
     ];
 });

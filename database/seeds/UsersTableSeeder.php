@@ -22,16 +22,6 @@ class UsersTableSeeder extends Seeder
 
         ]);
 
-        DB::table('users')->insert([
-            'name' => str_random(10),
-            'surname'=>str_random(15),
-            'role' => 'moderator',
-            'email'=>str_random(15).'@gmail.com',
-            'password'=>bcrypt('secret'),
-            'remember_token'=>str_random(15),
-            'created_at' => Date('Y-m-d H:i:s')
-
-        ]);
 
         DB::table('users')->insert([
             'name' => str_random(10),

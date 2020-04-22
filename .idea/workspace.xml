@@ -2,54 +2,148 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c96d5a2f-0300-4df9-8d9b-f52ceb34c6a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticleUserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ru/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ru/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ru/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ru/register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ru/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/articles/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/articles_user/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/503.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/'default'" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advance()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anticipate('What" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Console/Commands/SendEmails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ResultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/StartController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/LocaleMiddleware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Articles/StoreRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Articles/UpdateRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Grade/StoreRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Grade/UpdateRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/User/StoreRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/User/UpdateRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/argument('user')" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/argument('user')))" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arguments()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ask('What" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call('email" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call(function()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/callSilent('email" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/choice('What" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/scout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/createProgressBar(count($users))" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailyAt('15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/describe('Build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emailOutputTo('foo@example.com')" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environments('production')" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error('Что-то" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evenInMaintenanceMode()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/everyFiveMinutes()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/everyTenMinutes()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/everyThirtyMinutes()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finish()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fridays()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hourly()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/info('Вывести" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/info(Building {$project}!)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/line('Вывести" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mondays()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monthly()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/option('queue')" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/options()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/performTask($user)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/ChartlineComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/HomeComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/LineChart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/tokens.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ru/article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ru/tokens.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/articles/admin/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/articles/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/articles/form/fields.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/articles/store.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/grades/admin/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/grades/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/grades/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/grades/form/fields_create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/grades/form/fields_update.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/grades/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/articles.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/results/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/form/fields.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/form/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saturdays()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secret('What" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sendOutputTo($filePath)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sundays()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/table($headers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thenPing($url)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thursdays()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toArray()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/true" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuesdays()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twiceDaily()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wednesdays()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekdays()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekly()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weeklyOn(1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/when(function()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/withoutOverlapping()" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/HomeTaskLaravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HomeTaskLaravel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AboutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AboutController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ListController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ListController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GradeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GradeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ListController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Grade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Grade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ArticleFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ArticleFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ContestFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/GradeFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/GradeFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_29_113514_create_articles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_29_113514_create_articles_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_29_113725_create_grades_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_29_113725_create_grades_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_31_122237_create_contests_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ArticlesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ArticlesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ContestsTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/GradesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/GradesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/nav.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/ru/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ru/nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ru/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ru/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/articles/article.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/articles/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/articles/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/articles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/articles/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/articles_user/index.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/default.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/blocks/nav/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/blocks/nav/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,6 +251,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/laravel/scout" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ZNkUG2KdcGnGMGSscEb65FWrDI" />
@@ -165,7 +261,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="13.11.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -174,22 +270,22 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\OpenServer\OSPanel\domains\prof\app\Models" />
-      <recent name="E:\OpenServer\OSPanel\domains\prof\app\Http\Controllers" />
-      <recent name="E:\OpenServer\OSPanel\domains\medic\resources\lang\ru" />
-      <recent name="D:\OpenServer\OSPanel\domains\HomeTaskLaravel\app\Http\Controllers" />
-      <recent name="D:\OpenServer\OSPanel\domains\HomeTaskLaravel\resources\views" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\OSPanel\domains\prof\resources\lang\en" />
+      <recent name="D:\OpenServer\OSPanel\domains\prof\resources\views\grades\admin" />
+      <recent name="D:\OpenServer\OSPanel\domains\prof\resources\views" />
       <recent name="D:\OpenServer\OSPanel\domains\prof\resources\views\articles" />
       <recent name="E:\OpenServer\OSPanel\domains\prof\resources\views\user_articles" />
-      <recent name="E:\OpenServer\OSPanel\domains\prof\resources\views\profile" />
-      <recent name="D:\OpenServer\OSPanel\domains\prof\public\js" />
-      <recent name="D:\OpenServer\OSPanel\domains\medic\resources\views\users" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\OSPanel\domains\prof\resources\js\components" />
+      <recent name="D:\OpenServer\OSPanel\domains\prof\resources\lang\en" />
+      <recent name="D:\OpenServer\OSPanel\domains\prof\resources\views\grades\form" />
+      <recent name="D:\OpenServer\OSPanel\domains\prof\resources\views\grades" />
+      <recent name="E:\OpenServer\OSPanel\domains\prof\resources\views\articles\admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -274,7 +370,26 @@
       <workItem from="1586238053367" duration="10453000" />
       <workItem from="1586276867341" duration="3866000" />
       <workItem from="1586323141242" duration="7348000" />
-      <workItem from="1586408577951" duration="3231000" />
+      <workItem from="1586408577951" duration="10309000" />
+      <workItem from="1586459767972" duration="2022000" />
+      <workItem from="1586497304653" duration="1354000" />
+      <workItem from="1586498854201" duration="8210000" />
+      <workItem from="1586604838314" duration="5232000" />
+      <workItem from="1586630701118" duration="7935000" />
+      <workItem from="1586641536913" duration="4000" />
+      <workItem from="1586674014637" duration="16880000" />
+      <workItem from="1586710188874" duration="7583000" />
+      <workItem from="1586758989417" duration="10173000" />
+      <workItem from="1586838951363" duration="9435000" />
+      <workItem from="1586925189964" duration="16363000" />
+      <workItem from="1586968426092" duration="6810000" />
+      <workItem from="1587011846978" duration="14681000" />
+      <workItem from="1587053257247" duration="9421000" />
+      <workItem from="1587098755520" duration="8378000" />
+      <workItem from="1587109609465" duration="185000" />
+      <workItem from="1587109802167" duration="10503000" />
+      <workItem from="1587131663034" duration="6226000" />
+      <workItem from="1587565424898" duration="2152000" />
     </task>
     <servers />
   </component>

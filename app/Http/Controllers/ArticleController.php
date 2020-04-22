@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\Articles\UpdateRequest;
+use App\Http\Requests\Articles\StoreRequest;
 use App\Models\Article;
 use App\Models\User;
 use Carbon\Traits\Date;
@@ -13,23 +15,31 @@ use Illuminate\Support\Carbon;
 
 class ArticleController extends Controller
 {
-    public function get()
-    {
-
-        $articles = DB::table('articles')->get()->pluck('title');
-        foreach ($articles as $item) {
-            echo $item . "<br>";
-        }
-    }
-
     public function show($id)
     {
         $articles = DB::table('articles')
-            ->select('users.name', 'users.surname', 'articles.title', 'articles.annotation', 'articles.created_at', 'articles.section', 'articles.body')
+            ->select('users.id as id_user'  ,'users.name', 'users.surname', 'articles.title', 'articles.annotation', 'articles.created_at', 'articles.section', 'articles.body', 'articles.id')
             ->where('articles.id','=',$id)
             ->leftJoin('users', 'user_id', '=', 'users.id')
             ->get();
-        return view('articles.article', compact('articles'));
+        return view('articles.store', compact('articles'));
+    }
+
+    public function admindex()
+    {
+
+
+        $articles = DB::table('articles')
+
+            ->select('title', 'annotation', 'created_at', 'section','id', 'user_id', 'status')
+            ->get();
+        return view('articles.admin.index', compact('articles'));
+
+    }
+    public function admdestroy(Article $article)
+    {
+        $article->delete();
+        return view('articles.admin.index', compact('articles'));
     }
 
     public function index()
@@ -39,20 +49,41 @@ class ArticleController extends Controller
         $articles = DB::table('articles')
             ->leftJoin('users', 'user_id', '=', 'users.id')
             ->select('users.name', 'users.surname', 'articles.title', 'articles.annotation', 'articles.created_at', 'articles.section','articles.id')
+            ->where('articles.status','=','checked')
             ->get();
         return view('articles.index', compact('articles'));
 
     }
-    public function create()
+
+
+
+    public function destroy(Article $article)
     {
-        return view('articles.create');
+        $article->delete();
+        return redirect()->back();
     }
 
-     public function store(Request $request)
+    public function create()
+    {
+
+        if(Auth::check())
+        {
+
+            return view('articles.create');
+        }
+        else{
+            return redirect('login');
+        }
+
+    }
+
+     public function store(StoreRequest $request)
     {
         $user_id = Auth::id();
-        Article::create(['title' => $request->title, 'body' => $request->text, 'user_id' => $user_id, 'section' => $request->section, 'annotation' => $request->annotation, 'over_rating' => 0, 'updated_at' => Carbon::now()->toDateTimeString(), 'created_at' => Carbon::now()->toDateTimeString()]);
-        return view('main');
+        $data =$request->only(['title','body', 'section', 'annotation', 'status']);
+        $data['user_id'] = $user_id;
+        Article::create($data);
+        return redirect()->route('articles.index');
 
     }
 
@@ -64,6 +95,22 @@ class ArticleController extends Controller
         $img = Image::make($file);
         $img->save($path . $filename);
         echo '/images/'.$filename;
+    }
+
+    public function edit(Article $article)
+    {
+        return view('articles.edit', compact('article'));
+    }
+
+    public function update(UpdateRequest $request, Article $article)
+    {
+        $data = $request->only(['title','body','annotation', 'section', 'status']);
+        $role = Auth::user()->role;
+        if($role != 'admin'){
+            $data['status'] = 'on_check';
+        }
+        $article->update($data);
+        return redirect()->route('articles.index');
     }
 }
 

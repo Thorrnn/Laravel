@@ -15,12 +15,13 @@ class CreateGradesTable extends Migration
     {
         Schema::create('grades', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->unsignedBigInteger('users_jury_id');
+            $table->unsignedBigInteger('jury_id');
             $table->unsignedBigInteger('article_id');
             $table->float('novelty');
             $table->float('statement');
             $table->float('relevance');
             $table->float('fullness');
+            $table->float('aver_rating');
             $table->timestamps();
         });
 
@@ -31,6 +32,14 @@ class CreateGradesTable extends Migration
                  ->onDelete('cascade');
 
        });
+
+        Schema::table('grades', function(Blueprint $table){
+            $table->foreign('jury_id')
+                ->references('id')
+                ->on('users')
+                ->onDelete('cascade');
+
+        });
     }
 
     /**
